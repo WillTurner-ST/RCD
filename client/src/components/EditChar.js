@@ -126,6 +126,7 @@ const EditChar = (props) => {
                       </option>
                     ))}
                   </select>
+                  {errors.classs ? <p>{errors.classs.message}</p> : null}
                 </div>
                 <div className="padd">
                   <label htmlFor="profPic">Character Avatar</label>
