@@ -32,7 +32,6 @@ const CharSchema = {
   },
   classs:{
     type:String,
-    required:[true,"A class is required"],
     enum:{
         values:[
             'Barbarian',
@@ -51,7 +50,7 @@ const CharSchema = {
         message:'{VALUE} is not supported'
         
     },
-    required:[true,"Class is required"]
+    required:[true,"A class is required"]
 },
 
 profPic:{
