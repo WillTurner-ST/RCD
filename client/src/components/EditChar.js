@@ -226,7 +226,7 @@ const EditChar = (props) => {
               </div>
               <div className="Fbox4">
                 <button className="btn col-5 btn-warning" type="submit">
-                  Begin your Journey
+                  Edit value={name}
                 </button>
               </div>
             </div>
